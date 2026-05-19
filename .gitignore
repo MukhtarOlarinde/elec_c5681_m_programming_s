@@ -1,0 +1,31 @@
+# Build artifacts
+BUILD/
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.lst
+*.map
+
+# IDE files
+.vscode/
+.vs/
+*.uvopt
+*.uvgui.*
+*.uvoptx
+*.uvguix.*
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Dependencies
+mbed-os/
+.build/
+*.bak
+
+# Keil uVision
+Objects/
+Debug/
+*.tmp
